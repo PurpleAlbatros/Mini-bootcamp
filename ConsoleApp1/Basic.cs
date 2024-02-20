@@ -75,10 +75,9 @@ namespace School
                 {
                     float femaleHeight = student.Height;
                     sumHeight = sumHeight + femaleHeight;
-                }
-                if (student.IsFemale == true)
-                {
+                    //! sumHeight += femaleHeight;
                     FemaleStudents = FemaleStudents + 1;
+                    //! FemaleStudents++;
                 }
             }
             Console.WriteLine($"count is: {FemaleStudents}");

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robin\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Adam\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robin\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Adam\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robin\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Adam\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\robin\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\robin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robin\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\Adam\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adam\\Documents\\GitHub\\Mini-bootcamp\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
