@@ -19,4 +19,21 @@ public class Student
         get { return name; }
         set { name = value; }
     }
+
+    public int Grade
+    {
+        get { return grade; }
+        set { grade = value; }
+    }
+
+    public float Height
+    {
+        get { return height; }
+        set { height = value; }
+    }
+    public bool IsFemale
+    {
+        get { return isFemale; }
+        set { isFemale = value; }
+    }
 }
