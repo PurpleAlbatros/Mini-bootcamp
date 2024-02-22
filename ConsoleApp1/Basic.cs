@@ -1,5 +1,9 @@
+using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
+
 namespace School
 {
+    
     public class Basic
     {
         public static void CreateClassRoom(List<Student> classRoom)
@@ -55,7 +59,7 @@ namespace School
             for (int i = 0; i < classRoom.Count; i++)
             {
                 int grade = classRoom[i].Grade;
-                sumGrade = sumGrade + grade;
+                sumGrade += grade;
             }
             double averageGrade = sumGrade / classRoom.Count;
             return averageGrade;
@@ -84,5 +88,55 @@ namespace School
             float averageHeight = sumHeight / FemaleStudents;
             return averageHeight;
         }
+
+        /*
+        ? Write a program that takes an array of integers
+        ? and creates two lists, one containing even numbers
+        ? and the other containing odd numbers.
+        ? Define a class with a constructor and each list as a property.
+        ? return an instance of the class with the two lists as properties.
+        */
+
+        
+        public static Wrapper SortNumbers(int[] randomNumbers)
+        {
+            List<int> evenNumbers = new List<int>();
+            List<int> oddNumbers = new List<int>();
+            foreach (int number in randomNumbers)
+            {
+                if (number % 2 == 0)
+                {
+                    evenNumbers.Add(number);
+                }
+                else
+                {
+                    oddNumbers.Add(number);
+                }
+            }
+            Wrapper wrapper = new Wrapper(evenNumbers,oddNumbers);
+            return wrapper;
+        }
+    }
+    public class Wrapper
+    {
+     private List<int> evenNumbers;
+
+     private List<int> oddNumbers;
+       public List<int> EvenNumbers
+       {
+        get {return evenNumbers;}
+        set {evenNumbers = value;}
+       }
+       public List<int> OddNumbers 
+       {get {return oddNumbers;}
+       set{oddNumbers= value;}
+       }
+        public Wrapper (List<int> evenNumbers , List<int> oddNumbers)
+        {
+            this.evenNumbers = evenNumbers;
+            this.oddNumbers= oddNumbers;
+
+        }
+        
     }
 }
